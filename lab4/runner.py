@@ -4,10 +4,10 @@ import sys
 import os
 
 NUM_THREADS = [1, 2, 4, 8, 16, 32, 48]
-PROBLEM_SIZE = 10_000_000
+PROBLEM_SIZE = 10_000_000_000
 
 CONFIGS = [
-    [("CHUNK", 40000), ("BUCKETS_NUMBER", 2**10), ("CAPACITY_MULTIPLIER", 2.0)],
+    [("CHUNK", 40000), ("BUCKETS_NUMBER", 1024000), ("CAPACITY_MULTIPLIER", 2.0)],
     # [],  # domyślne makra z programu C
 ]
 
