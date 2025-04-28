@@ -219,7 +219,7 @@ for plot_idx, col_to_plot in enumerate(PLOT_COLUMNS):
 
     ax.set_title(col_to_plot.replace("_", " ").title())
     ax.set_ylabel("Mean Time (s)")
-    ax.set_yscale("log")
+    # ax.set_yscale("log")
     ax.grid(True, which="both", linestyle="--", linewidth=0.5)
     if int_ticks:
         ax.set_xticks(unique_threads)
