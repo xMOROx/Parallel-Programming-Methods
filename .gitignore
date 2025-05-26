@@ -1,4 +1,5 @@
 /**/output/**/*
 /**/run*/**/*
+/**/*/artifacts/**/*
 *.csv
 *.png
